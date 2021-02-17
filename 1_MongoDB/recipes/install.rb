@@ -7,5 +7,5 @@ package 'mongodb-dev' do
 end
 
 service 'mongodb' do
-  action [ :enable, :start ]
-end	
+  action [:enable, :start]
+end
